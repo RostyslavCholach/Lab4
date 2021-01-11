@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/.iml
+/.xml
+/.uml
+/.idea
+/.xml
+inspectionProfiles
+
+# Project exclude paths
+/out/
