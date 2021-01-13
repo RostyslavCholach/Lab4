@@ -32,7 +32,7 @@ public class Main {
         }
     }
 
-    public static void banks(){
+    public static void banks() throws Exception {
         listOfBanks.add(new OtherCredit("Monobank", 1, 3, 1000, 4000, 1, 3));
         listOfBanks.add(new OtherCredit("Lviv bank", 2, 4, 500, 3000, 4, 10));
         listOfBanks.add(new CarCredit("Privat Bank", 2, 4, 10000, 50000, 5, 15));

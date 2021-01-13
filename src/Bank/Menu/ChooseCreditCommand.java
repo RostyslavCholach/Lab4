@@ -15,7 +15,7 @@ public class ChooseCreditCommand implements MenuExecute {
     public static ApplyForACredit application = new ApplyForACredit();
 
     @Override
-    public void execute() {
+    public void execute() throws Exception {
 
         Scanner scanner = new Scanner(System.in);
         ShowCreditsForClientCommand showCredits = new ShowCreditsForClientCommand();

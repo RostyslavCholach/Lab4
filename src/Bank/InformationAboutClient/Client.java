@@ -26,7 +26,7 @@ public class Client {
         this.workPlace = "";
         this.permanentJob = false;
         this.financialPosition = 0.0;
-        this.availabilityOfRealEstate = false;
+        this.availabilityOfRealEstate = true;
         this.realEstateValue = 0.0;
         this.creditHistory = 0;
     }

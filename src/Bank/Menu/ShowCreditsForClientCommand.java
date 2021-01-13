@@ -10,7 +10,7 @@ public class ShowCreditsForClientCommand implements MenuExecute{
     public static ArrayList<Credit> listForClient = new ArrayList<Credit>();
 
     @Override
-    public void execute() {
+    public void execute() throws Exception {
 
         if(Main.client.getFirstName().isEmpty()){
             EnterInformationCommand info = new EnterInformationCommand();

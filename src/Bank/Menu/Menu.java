@@ -18,7 +18,7 @@ public class Menu {
         this.command.put(0, new ExitCommand());
     }
 
-    public void execute(int command){
+    public void execute(int command) throws Exception {
         MenuExecute exe = this.command.get(command);
         if(exe != null){
             exe.execute();

@@ -7,7 +7,7 @@ public class Mortgage extends Credit {
 
     public Mortgage(String bankName, int minimumCreditTerm, int maximumCreditTerm,
                                  double minimumCreditAmount, double maximumCreditAmount,
-                                 double minimumInterestRate, double maximumInterestRate) {
+                                 double minimumInterestRate, double maximumInterestRate) throws Exception {
 
         this.setBankName(bankName);
         this.setCreditPurpose("Mortgage");
